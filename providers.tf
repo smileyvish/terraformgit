@@ -6,10 +6,10 @@ terraform {
     }
   }
   backend "s3" {
-    key = "terraform/"
+    key    = "terraform"
     bucket = "mytestingbuck12"
     region = "us-east-1"
-    
+
   }
 }
 
